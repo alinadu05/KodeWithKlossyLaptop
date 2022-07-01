@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="About_Me_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="30 Solar-Powered Pets Enjoying A Good Sunbathe" translatesAutoresizingMaskIntoConstraints="NO" id="n3N-v9-EQ7">
+                                <rect key="frame" x="107" y="152" width="200" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="OTI-0u-D1b"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3O-LQ-2ea">
+                                <rect key="frame" x="146" y="83" width="122" height="31"/>
+                                <color key="backgroundColor" red="0.57687836778163259" green="0.25540985685850326" blue="0.14530187074829931" alpha="0.68178290562913912" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="About Alina 🐻"/>
+                                <connections>
+                                    <action selector="aboutAlinaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZjV-Wq-yeN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcS-Sx-uHb">
+                                <rect key="frame" x="158" y="495" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7T-ha-oOB">
+                                <rect key="frame" x="137" y="600" width="140" height="31"/>
+                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Click for Facts 🪐"/>
+                                <connections>
+                                    <action selector="factsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2mz-o3-skb"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_4829-1" translatesAutoresizingMaskIntoConstraints="NO" id="WIf-x6-sX1">
+                                <rect key="frame" x="107" y="367" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="49W-2V-Szm"/>
+                                    <constraint firstAttribute="width" constant="200" id="CjC-lI-88w"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOX-wC-wCv">
+                                <rect key="frame" x="186" y="655" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPC-8F-U7Q">
+                                <rect key="frame" x="207" y="653" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Kv-P1-8DF">
+                                <rect key="frame" x="186" y="677" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iT-sd-d9e">
+                                <rect key="frame" x="207" y="677" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.85098039215686272" green="0.76470588235294112" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="n3N-v9-EQ7" firstAttribute="top" secondItem="T3O-LQ-2ea" secondAttribute="bottom" constant="38" id="4pX-6T-hFr"/>
+                            <constraint firstItem="F7T-ha-oOB" firstAttribute="top" secondItem="WIf-x6-sX1" secondAttribute="bottom" constant="33" id="9Z8-bV-15k"/>
+                            <constraint firstItem="WIf-x6-sX1" firstAttribute="top" secondItem="T3O-LQ-2ea" secondAttribute="bottom" constant="253" id="Fm3-jK-Wbj"/>
+                            <constraint firstItem="n3N-v9-EQ7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PoJ-xE-SDM"/>
+                            <constraint firstItem="6iT-sd-d9e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S5v-VK-GLF"/>
+                            <constraint firstItem="F7T-ha-oOB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fdX-b1-SSh"/>
+                            <constraint firstItem="T3O-LQ-2ea" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lOf-HV-q6R"/>
+                            <constraint firstItem="6iT-sd-d9e" firstAttribute="top" secondItem="F7T-ha-oOB" secondAttribute="bottom" constant="46" id="nRH-qA-wAf"/>
+                            <constraint firstItem="T3O-LQ-2ea" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="oAx-ed-ccC"/>
+                            <constraint firstItem="WIf-x6-sX1" firstAttribute="top" secondItem="n3N-v9-EQ7" secondAttribute="bottom" constant="10" id="uE8-ot-bbf"/>
+                            <constraint firstItem="WIf-x6-sX1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uyk-C4-oNr"/>
+                            <constraint firstItem="qPC-8F-U7Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yj2-hS-3cZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="catPic" destination="n3N-v9-EQ7" id="IIP-bE-vZU"/>
+                        <outlet property="funFacts2" destination="6iT-sd-d9e" id="rNT-1E-FHd"/>
+                        <outlet property="hawaiiPic" destination="WIf-x6-sX1" id="B8X-83-bud"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="30 Solar-Powered Pets Enjoying A Good Sunbathe" width="700" height="933"/>
+        <image name="IMG_4829-1" width="3024" height="4032"/>
+    </resources>
+</document>
